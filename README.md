@@ -25,6 +25,7 @@ The author chose to compare the different event logs of L1, L2 and L3 (in the im
 
 # 3. Graph-based Process Mining Approaches
 The concept to use graphs to compare the event log class digram models of event logs to construct a federated event log is rooted upon graph-based process mining research conducted by Amin Jalali (2020), Stefan Esser & Dirk Fahland (2021, 2022). The image below highlights the author's main concept applicable with the provided code in the repository.
+<img width="1443" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/4d66705d-4d1c-4a3b-a0b1-5b2f3469327c">
 
 
 # 4. Installation
