@@ -14,11 +14,15 @@ Figure 1: Vertical and Horizontal Splitting of Processes for Intra- and Inter-Or
 Van der Aalst stated in 2011 that a process either can be **partitioned vertically**:
 Analyzing the same process, but different variants - also termed nowadays as comparative process mining e.g. for bench mark analysis ([Carmona and Van der Aalst et al., 2022](https://link.springer.com/book/10.1007/978-3-031-08848-3)). Or **horizontally partitioned**: Which is chaining different sub-processes  in supply-chain and product-production chains across organisations which are combined based on a common case identifier, for which the Federated Process Mining use case reveals the need to harmonize the different heterogenous event logs structures of different companies (three in this example) and merged in to one single federated event log.
 
+![image](https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/7cbd03ab-150f-4ab9-95f3-07a18b3bf9e7)
+
+Figure 2: Federated Process Mining across Organizational Boundaries (van der Aalst, 2021)
+
+The author chose to compare the different event logs of L1, L2 and L3 (in the image below) as graphs containing in formation on their data quality and event log challenges as well as their event log class attribute's data model to identify harmonization efforts to ETL the data before merging the data into a federated event log.
+
 <img width="368" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/fced538f-6a2c-49b7-856d-5323b4ea74fa">
 
-Figure 2: Federated Process Mining Type I (van der Aalst, 2021)
-
-The author chose to compare the different event logs of L1, L2 and L3 (in the image above) as graphs containing in formation on their data quality and event log challenges as well as their event log class attribute's data model to identify harmonization efforts to ETL the data before merging the data into a federated event log.
+Figure 3: Federated Process Mining Type I (van der Aalst, 2021)
 
 
 # 3. Graph-based Process Mining Approaches
