@@ -15,9 +15,12 @@ Analyzing the same process, but different variants - also termed nowadays as com
 
 <img width="368" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/fced538f-6a2c-49b7-856d-5323b4ea74fa">
 
+The author chose to compare the different event logs in the image above on their data quality and event log challenges as well as their event log class attribute's data model to identify harmonization efforts. The image below highlights the author's main concept applicable with the provided code in the repository.
+,m,mwhats
+
 
 # 3. Graph-based Process Mining Approaches
-This thesis builds upon graph-based process mining research by 
+The concept to use graphs to compare the event log class digram models of event logs to construct a federated event log is rooted upon graph-based process mining research conducted by Amin Jalali (2020), Stefan Esser & Dirk Fahland (2021, 2022).
 
 # 4. Installation
 To run the event log pre-processing scripts, you will require a Python 3 environment and a code editor: The author recommends pip3 and Visual Studio Code. The scripts are run in a Jupyter Notebook sequentially on the .CSV files of each event log. The generated Cypher commands from the scripts are then imported into the LPG database Neo4j.
