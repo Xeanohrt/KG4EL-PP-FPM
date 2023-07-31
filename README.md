@@ -38,7 +38,8 @@ The image below highlights the author's main concept applicable with the provide
    4. Then the Target Data Model for the Federated Event Log is created in Neo4j (below in blue)
    5. To complete the knowledge graph additional information such as the Taxonomy Graph and Process Level Nodes are added
    6. Event log attribute dificiencies are explicitly modelled as edges between the event attribute and the semantic taxonomy.
-   7. The information on the structure of an event attribute in the Target Data Model for the Federated Event Log is compared to each fitting event attribute of one of L1, L2 and L3 on data quality, data format and event log challenges. The relationships are used in the LPG to define if given event log attribute is present from the Target Data Model to the event log L1, L2 and L3 or not and if additional changes are required. 
+   7. The information on the structure of an event attribute in the Target Data Model for the Federated Event Log is compared to each fitting event attribute of one of L1, L2 and L3 on data quality, data format and event log challenges. The relationships are used in the LPG to define if given event log attribute is present from the Target Data Model to the event log L1, L2 and L3 or not and if additional changes are required.
+   8. Based on these insights the original event log data can be transformed to be merged into a federated event log containing a higher level of data homogeneity required for the process mining algorithms to discover process models. 
 
 # 4. Installation
 To run the event log pre-processing scripts, you will require a Python 3 environment and a code editor: The author recommends pip3 and Visual Studio Code. The scripts are run in a Jupyter Notebook sequentially on the .CSV files of each event log. The generated Cypher commands from the scripts are then imported into the LPG database Neo4j.
