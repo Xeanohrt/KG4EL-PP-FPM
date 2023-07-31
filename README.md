@@ -6,8 +6,8 @@ The aim of the master thesis was to demonstrate how the knowledge graph-driven a
 
 # 2. Intra- and Inter-Organizational Process Mining
 Intra- and Inter-Organizational Process Mining focuses on discovering processes within and between
-organizations. Van der Aalst states that a process either can be partitioned vertically:
-Analyzing the same process, but different variants - also termed nowadays as comparative process mining e.g. for bench mark analysis [Carmona and Van der Aalst et al., 2022](https://link.springer.com/book/10.1007/978-3-031-08848-3). Or horizontally partitioned: Which is chaining different sub-processes  in supply-chain and product-production chains across organisations which are combined based on a common case identifier, for which the Federated Process Mining use case reveals the need to harmonize the different heterogenous event logs structures of different companies (three in this example) and merged in to one single federated event log.
+organizations. Van der Aalst states that a process either can be **partitioned vertically**:
+Analyzing the same process, but different variants - also termed nowadays as comparative process mining e.g. for bench mark analysis ([Carmona and Van der Aalst et al., 2022](https://link.springer.com/book/10.1007/978-3-031-08848-3)). Or **horizontally partitioned**: Which is chaining different sub-processes  in supply-chain and product-production chains across organisations which are combined based on a common case identifier, for which the Federated Process Mining use case reveals the need to harmonize the different heterogenous event logs structures of different companies (three in this example) and merged in to one single federated event log.
 
 # 3. Graph-based Process Mining Approaches
 Test
