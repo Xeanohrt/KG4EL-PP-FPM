@@ -32,11 +32,13 @@ The image below highlights the author's main concept applicable with the provide
 
 <img width="943" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/4d66705d-4d1c-4a3b-a0b1-5b2f3469327c">
 
-   1. First the event log class graph is created for each event log as a Labelled Property Graph (LPG)
-   2. Then the Target Data Model for the Federated Event Log is created
-   3. To complete the knowledge graph additional information such as the Taxonomy Graph and Process Level Nodes are added
-   4. Event log attribute dificiencies are explicitly modelled as edges between the event attribute and the semantic taxonomy.
-   5. The Target Data Model for the Federated Event Log is compared to each of the event logs from a company in the FPM set up. This is done by checking if a given event log attribute is present from the Target Data Model to the event log L1, L2 and L3. 
+   1. First a so-called "Meta-DataFrame" is constructed based on requirements gathered from real world process mining practitioners to measure the event log's maturity level, providing an aggregated view of each event log attribute of a given event log
+   2. Based on the "Meta-DataFrame" a script transforms the DataFrame into an event log class graph an constructed in Neo4j
+   3. Step 1 and Step 2 is performed for each event log as a Labelled Property Graph (LPG)
+   4. Then the Target Data Model for the Federated Event Log is created in Neo4j
+   5. To complete the knowledge graph additional information such as the Taxonomy Graph and Process Level Nodes are added
+   6. Event log attribute dificiencies are explicitly modelled as edges between the event attribute and the semantic taxonomy.
+   7. The Target Data Model for the Federated Event Log is compared to each of the event logs from a company in the FPM set up. This is done by checking if a given event log attribute is present from the Target Data Model to the event log L1, L2 and L3. 
 
 # 4. Installation
 To run the event log pre-processing scripts, you will require a Python 3 environment and a code editor: The author recommends pip3 and Visual Studio Code. The scripts are run in a Jupyter Notebook sequentially on the .CSV files of each event log. The generated Cypher commands from the scripts are then imported into the LPG database Neo4j.
