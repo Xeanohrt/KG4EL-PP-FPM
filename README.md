@@ -10,6 +10,7 @@ The aim of the master thesis was to demonstrate how the knowledge graph-driven a
 Intra- and Inter-Organizational Process Mining focuses on discovering processes within and between
 organizations trying to learn from their commonalities and bottlenecks or aiming at enhancing their collaboration efforts in a production process. 
 <img width="673" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/f7007859-7cbf-4cea-b0a3-9f18b59f3c8a">
+
 Figure 1: Vertical and Horizontal Splitting of Processes for Intra- and Inter-Organizational Process Mining (Van der Aalst, 2011)
 
 Van der Aalst stated in 2011 that a process either can be **partitioned vertically**:
