@@ -1,6 +1,8 @@
 # Thesis Structure KG4EL-PP-FPM
 
+
 <img width="714" alt="image" src="https://github.com/Xeanohrt/KG4EL-PP-FPM/assets/16185957/5e9bffde-10f4-49e3-a2bc-0f925a7a58c3">
+
 
 # 1. Awareness Phase
 After performing the Literature Review the author interviewed industry experts on the challenges in event log preprocessing when constructing an event log based on data from distributed systems within a company. One partner conglomerate had an internal set up which enabled federated process mining model type I as proposed by Van der Aalst. The author gathered from qualitative interviews the most important areas of event log preprocessing from a practitioners perspective. The author gathered 12 requirements which can be seen in the evaluation folder.
