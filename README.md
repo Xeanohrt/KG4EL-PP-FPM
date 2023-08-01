@@ -1,4 +1,4 @@
-# Knowledge Graph for Event Log Preprocessing in Federated Process Mining (KG4EL-PP-FPM)
+# Master Thesis: Knowledge Graph for Event Log Preprocessing in Federated Process Mining (KG4EL-PP-FPM)
 # 1. Description of the Thesis Topic
 Process mining is a research area that supports discovering information about business processes based on their recorded event logs in Process Aware Information Systems (PAIS) such as SAP, Salesforce or MS Dynamics. Mannhardt stated that inter-organizational process mining has been less well researched at the time of the publication of this thesis (2022). This repository contains the IT artefact of the author's master thesis examining how knowledge graphs can be leveraged to support the construction of a federated event log from multiple Process Aware Information Systems (PAIS) for inter-organizational process mining (Federated Process Mining), addressing challenges in event log data and preprocessing. The author aims to contribute to the novel field by providing a structured approach in constructing a federated event log. 
 
